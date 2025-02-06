@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'uri', '1.0.2'
 gem 'jekyll'
 
 # Core plugins that directly affect site building
@@ -26,7 +27,6 @@ end
 
 # Gems for development or external data fetching (outside :jekyll_plugins)
 group :other_plugins do
-    gem 'uri', '1.0.2'
     gem 'css_parser'
     gem 'feedjira'
     gem 'httparty'
