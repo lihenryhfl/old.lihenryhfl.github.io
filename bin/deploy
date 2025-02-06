@@ -95,6 +95,8 @@ export JEKYLL_ENV=production
 # Build site
 gem install bundler
 bundle update --bundler
+rm Gemfile.lock
+bundle install
 bundle exec jekyll build
 
 # Purge unused css
