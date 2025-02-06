@@ -1,0 +1,12 @@
+github_users:
+  - lihenryhfl
+
+github_repos:
+  - lihenryhfl/diffusion_optimal_control
+  - lihenryhfl/pcdm
+  - lihenryhfl/NITS
+  - reds-lab/Restricted_gradient_diversity_unlearning
+  - jpatsenker/diffusion_conditional_sampling
+  - jpatsenker/2-body-ema
+  - KlugerLab/SpectralNet
+  - lihenryhfl/SpectralVAEGAN

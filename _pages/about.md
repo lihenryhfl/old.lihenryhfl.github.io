@@ -2,21 +2,36 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Yale University</a>.
+# subtitle: Yale PhD student studying the guidance and fine-tuning of <a href='#'>diffusion models</a>.
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_cicular: false # crops the image to make it circular
-  address: >
-    <p>Arthur K Watson Hall Room 101</p>
-    <p>51 Prospect St</p>
-    <p>New Haven, CT 06511</p>
+  image_circular: false # crops the image to make it circular
+  more_info: >
+    <p>    Cambridge, MA</p>
 
-news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
+
+announcements:
+  enabled: true # includes a list of news items
+  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  limit: 5 # leave blank to include all the news in the `_news` folder
 ---
 
-I am a PhD student in the Applied Math Program at Yale University. I work with [Yuval Kluger](https://medicine.yale.edu/bbs/computational/profile/yuval_kluger/) and [Ronald Coifman](https://cpsc.yale.edu/people/ronald-coifman) on various topics in machine learning. I am particularly interested in principled approaches to likelihood-based generative modeling.
+<a href='#'>About Me</a>: I study the guidance and fine-tuning of diffusion models. I have previously interned with the Seed Foundation Team at <a href='https://team.doubao.com/en/topseed'>TikTok / ByteDance</a>, the Center for Artificial Intelligence at <a href='https://www.bosch-ai.com'>Bosch</a>, and the Center for Computational Mathematics at the <a href='https://www.simonsfoundation.org/flatiron/center-for-computational-mathematics/'>Flatiron Institute</a>. I have extensively published both <i>theoretical</i> and <i>applied</i> work on diffusion models:
 
+Theoretical
+<ul>
+<li>ICML 2023 Workshop: Non-normal diffusion processes and connecting EMA training of diffusion models to two-body Hookean systems.</li>
+<li><b>ICLR 2024 Spotlight</b>: Retaining likelihood estimation capabilities in multi-stage diffusion models (in collaboration with Meta AI).</li>
+</ul>
+
+Applied
+<ul>
+<li>NeurIPS 2024: Guided diffusion modeling through the lens of optimal control (in collaboration with Bosch AI)
+<li>NeurIPS 2024: Model alignment and unlearning in diffusion models.</li>
+<li>In Submission: Fast and efficient guided diffusion modeling for image reconstruction in the presence of measurement noise.</li>
+<li><b>In Submission</b>: Large-scale diffusion models for simultaneous text and image generation (in collaboration with Seed Team at TikTok / ByteDance).</li>
+<!-- </ul> -->
