@@ -94,7 +94,6 @@ export JEKYLL_ENV=production
 
 # Build site
 bundle add jekyll
-jekyll --version
 bundle exec jekyll build
 
 # Purge unused css
